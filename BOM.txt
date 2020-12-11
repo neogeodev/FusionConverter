@@ -1,0 +1,8 @@
+2x MVS connectors: Sullins EZC60DCTT or EDAC 345-120-520-201
+1x CPLD: EPM240T100C5N http://fr.farnell.com/altera/epm240t100c5n/max-ii-isp-cpld-240-tqfp100-240/dp/1453503
+1x LDO: 1117-3.3 http://fr.farnell.com/diodes-inc/ap1117e33g-13/regulateur-ldo-3-3v-sot223/dp/1825291
+2x 74HCT245 http://fr.farnell.com/texas-instruments/sn74hct245dw/emetteur-recepteur-de-bus-octal/dp/9591923
+1x 74HCT08 http://fr.farnell.com/texas-instruments/sn74hct08d/ic-quad-gate-2i-p-soic-14/dp/2136927
+8x M3x6mm BHC screws
+4x Hex 9mm standoffs
+2x 1206 100nF MLCC capacitors
