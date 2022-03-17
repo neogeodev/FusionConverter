@@ -1,8 +1,17 @@
-2x MVS connectors: Sullins EZC60DCTT or EDAC 345-120-520-201
-1x CPLD: EPM240T100C5N http://fr.farnell.com/altera/epm240t100c5n/max-ii-isp-cpld-240-tqfp100-240/dp/1453503
-1x LDO: 1117-3.3 http://fr.farnell.com/diodes-inc/ap1117e33g-13/regulateur-ldo-3-3v-sot223/dp/1825291
-2x 74HCT245 http://fr.farnell.com/texas-instruments/sn74hct245dw/emetteur-recepteur-de-bus-octal/dp/9591923
-1x 74HCT08 http://fr.farnell.com/texas-instruments/sn74hct08d/ic-quad-gate-2i-p-soic-14/dp/2136927
-8x M3x6mm BHC screws
-4x Hex 9mm standoffs
-2x 1206 100nF MLCC capacitors
+CHA board:
+Jx: MVS connector 2*60pin 2.54mm pitch Sullins EZC60DCTT or EDAC 345-120-520-201
+U2: CPLD Altera EPM240T100C5N or EPM240T100I5N
+U1: 3.3V 100mA min. LDO 1117-3.3
+C1, C3: MLCC 100nF 10V 1206
+C2: Electrolytic cap 1~10uF 10V 2.54mm pitch
+
+PROG board:
+Jx: MVS connector 2*60pin 2.54mm pitch Sullins EZC60DCTT or EDAC 345-120-520-201
+C1, C2, C3: MLCC 100nF 10V 1206
+C4: Electrolytic cap 1~10uF 10V 2.54mm pitch
+U1, U2: Octal bus transceiver 74HCT245 in SO20W package
+U3: Quad 2-input AND gates 74HCT08 in SO14 package
+
+Mechanical:
+8x M3x4mm BHC screws
+4x Hex 8mm standoffs

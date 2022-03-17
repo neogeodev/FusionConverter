@@ -6,6 +6,9 @@ PCB GERBERs, BOM, Verilog and Quartus assignments files.
 
 Compatibility list: https://wiki.neogeodev.org/index.php?title=Fusion_converter
 
+Wire the "RESET" pads on both boards together with a small wire. JTAG connections: see `JTAG.png`.
+The board MUST be powered externally during programming, the programming cable doesn't provide power.
+
 # Note to JGO
 
 * You were dumb enough to clone an open-hardware project. You could just have used these files.
