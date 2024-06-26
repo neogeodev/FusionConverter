@@ -1,17 +1,21 @@
 CHA board:
-Jx: MVS connector 2*60pin 2.54mm pitch Sullins EZC60DCTT or EDAC 345-120-520-201
-U2: CPLD Altera EPM240T100C5N or EPM240T100I5N
-U1: 3.3V 100mA min. LDO 1117-3.3
-C1, C3: MLCC 100nF 10V 1206
-C2: Electrolytic cap 1~10uF 10V 2.54mm pitch
+Jx: Card edge connector 2*60pin 2.54mm pitch Sullins EZC60DCTT or EDAC 345-120-520-201
+R1: Resistor 1k 0603
+C1, C3-C6: MLCC 100nF 10V X7R 0603
+C2: Tantalum capacitor 22uF 16V case C
+U1: Dual output LDO 1.8V 3.3V AP7312-1833W6
+U2: CPLD Lattice LC4064ZE-7TN100
+U3: Voltage detector 4.8V APX803Lxx-48SA (xx = any)
+D1: 1206 LED
 
 PROG board:
-Jx: MVS connector 2*60pin 2.54mm pitch Sullins EZC60DCTT or EDAC 345-120-520-201
-C1, C2, C3: MLCC 100nF 10V 1206
-C4: Electrolytic cap 1~10uF 10V 2.54mm pitch
-U1, U2: Octal bus transceiver 74HCT245 in SO20W package
-U3: Quad 2-input AND gates 74HCT08 in SO14 package
+Jx: Card edge connector 2*60pin 2.54mm pitch Sullins EZC60DCTT or EDAC 345-120-520-201
+R1: Resistor 1k 0603
+C1-C3: MLCC 100nF 10V X7R 0603
+C4: Tantalum capacitor 22uF 16V case C
+U1, U2: Octal bus transceiver 74HC245 TSSOP14
+U3: Quad 2-input AND gates 74HC08 TSSOP14
 
 Mechanical:
-8x M3x4mm BHC screws
+8x M3x4mm BHC screws, or M3x6mm if using shell
 4x Hex 8mm standoffs
